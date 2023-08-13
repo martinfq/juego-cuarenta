@@ -14,6 +14,10 @@ export default function Mazo(){
     return (
         <div>
             {cartaAleatoria()}
+            {cartaAleatoria()}
+            {cartaAleatoria()}
+            {cartaAleatoria()}
+            {cartaAleatoria()}
         </div>
     );
 }

@@ -1,9 +1,12 @@
-import Mazo from "./mazo";
+import Jugador from "./jugador";
 
 export default function Tablero() {
   return <div>
     <div>
-        <Mazo />
+        <Jugador />
+        <Jugador />
+        <Jugador />
+        <Jugador />
     </div>
     <button>Juego</button>
   </div>;
