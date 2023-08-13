@@ -1,3 +1,7 @@
 export default function Carta({valor,color}){
-    return <div>{valor}{color}</div>
+    const carta =  {
+        valor: valor,
+        color:color
+    }
+    return <div>{JSON.stringify(carta)}</div>
 }
